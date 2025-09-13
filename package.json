@@ -1,0 +1,23 @@
+{
+  "name": "smtp2go",
+  "version": "1.0.0",
+  "description": "Project to Send Mails",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node mail.ts",
+    "sendjs": "node mail.js",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "smtp2go-nodejs": "^0.3.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2"
+  }
+}
